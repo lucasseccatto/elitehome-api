@@ -1,0 +1,25 @@
+{
+  "name": "elitehome-api",
+  "version": "1.0.0",
+  "description": "API para o Elite Home",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch ./src/http/server.ts"
+  },
+  "keywords": [],
+  "author": "Lucas Seccatto",
+  "url": "https://github.com/lucasseccatto",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "fastify": "^5.0.0",
+    "knex": "^3.1.0",
+    "pg": "^8.13.0",
+    "zod": "^3.23.8"
+  }
+}
